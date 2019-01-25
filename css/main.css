@@ -47,7 +47,7 @@ hr {
     left: 0;
     top: 0;
     height: 100%;
-    z-index: 10;
+    z-index: -10;
     background: url(/art/backgrounds/mainbackground2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -73,7 +73,7 @@ hr {
 #banner h1 {
     margin-top: 27px; /* sets a margin for the h1 in the banner so it fits better */
     color: white; /* sets the banner text h1 color */
-    padding-right: 70px;
+    padding-right: 75px;
 }
 
 #banner p{
@@ -545,7 +545,6 @@ footer {
         min-height: 200px;
     }
     
-   
     #content a { 
         font-size: 85%;
     }
