@@ -12,11 +12,6 @@ html, body {
     background-color: black;
 }
 
-a
-{
-    font-size: 100%;
-}
-
 p {
     color: black; /* Sets the p text color */
     font-size: 25px; /* sets the p text font size */
@@ -47,9 +42,18 @@ hr {
 #right-pane {
     float: right; /* floats the pane to the right */
     width: 85%; /* sets the width of the pane */
-    background:url(/art/backgrounds/mainbackground2.jpg) top right no-repeat; background-attachment:fixed;
-    background-color: #cccccc;
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 10;
+    background: url(/art/backgrounds/mainbackground2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    background-color: #cccccc;
     padding-right: 4px;
     overflow: inherit;
 
@@ -536,19 +540,13 @@ footer {
         visibility: visible;
     }
     
+    .slideshow-container{     
+        max-height: 200px; 
+        min-height: 200px;
+    }
+    
+   
+    #content a { 
+        font-size: 85%;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
