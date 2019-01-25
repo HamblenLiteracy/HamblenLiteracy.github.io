@@ -47,8 +47,9 @@ hr {
 #right-pane {
     float: right; /* floats the pane to the right */
     width: 85%; /* sets the width of the pane */
-    background: url(../art/backgrounds/mainbackground2.jpg) no-repeat center center fixed;
+    background:url(/art/backgrounds/mainbackground2.jpg) top right no-repeat; background-attachment:fixed;
     background-color: #cccccc;
+    padding-right: 4px;
     overflow: inherit;
 
 }
