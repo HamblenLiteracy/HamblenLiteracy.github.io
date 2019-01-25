@@ -73,3 +73,12 @@ function thankYouMsg() {
     document.getElementById("thankyou").style.display = "block";
     location.href = "#a1";
 }
+
+/********************* responsive navbar *********************/
+                
+function openNav() {                   
+    document.getElementById("mySidenav").style.width = "40%";               
+}               
+function closeNav() {                 
+    document.getElementById("mySidenav").style.width = "0";                  
+}
