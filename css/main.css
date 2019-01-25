@@ -49,6 +49,7 @@ hr {
     width: 85%; /* sets the width of the pane */
     background:url(/art/backgrounds/mainbackground2.jpg) top right no-repeat; background-attachment:fixed;
     background-color: #cccccc;
+    background-size: cover;
     padding-right: 4px;
     overflow: inherit;
 

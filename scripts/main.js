@@ -46,7 +46,7 @@ function carousel()
         slideIndex = 1
     } 
     x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 6000); 
+    setTimeout(carousel, 10000); 
   
     for (i = 0; i < dots.length; i++)
     {
