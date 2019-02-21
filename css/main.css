@@ -531,10 +531,6 @@ footer {
 
 @media screen and (max-width: 450px)
 {
-    .sidenav
-    {
-        padding-right: 25px;
-    }
     .sidenav a 
     {
         font-size: 18px;
