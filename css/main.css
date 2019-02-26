@@ -445,6 +445,19 @@ footer {
     background-color: black;
 }
 
+
+/**********************Gallery**********************/
+
+.Gallery-img
+{
+    background-color: #01183d;
+    width: 80%;
+    border-radius: 20px;
+    border: 5px solid #01183d;
+}
+
+
+
 /********************* History *********************/
 
 #years30 p
