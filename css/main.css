@@ -123,11 +123,6 @@ nav a {
     text-decoration: none; /* removes the lines from the nav bar text */
 }
 
-nav a.active {
-    background-color: #001f54; /* sets the background color of the active lnk */
-    color: white; /* sets the color of the active link */
-}
-
 nav a:hover:not(.active) {
     background-color: #001f54; /* sets the background color of the hover */
     color: white; /* sets the text color of the hover */
