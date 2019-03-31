@@ -480,6 +480,15 @@ footer {
     background-color: black;
 }
 
+.news-img
+{
+  background-color: #01183d;
+    width: 40%;
+    height: 700px;
+    border-radius: 35px;
+    border: 10px solid #01183d;
+}
+
 /********************* responsive navbar *********************/
 
 .sidenav {
